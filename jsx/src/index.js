@@ -13,9 +13,21 @@ const root = ReactDOM.createRoot(element);
 // 4) create a component
 
 function App() {
-  return <h1>Hi, there! </h1>;
+  // we can use number or string here
+  //as we use undefined ,null , boolean
+  // nothing is shown in screen and
+  // when we use object to reaturn as components
+  // we get a error and and nothing gets
+  // displayed on screen
+  let message = "bye there!";
+  if (Math.random() > 0.5) {
+    message = "bye bye !";
+  }
+  return <h1>{message}</h1>;
 }
 
 // 5) show the component on the screen
 
 root.render(<App />);
+
+//
