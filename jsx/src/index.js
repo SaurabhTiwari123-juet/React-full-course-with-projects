@@ -23,7 +23,15 @@ function App() {
   if (Math.random() > 0.5) {
     message = "bye bye !";
   }
-  return <h1>{message}</h1>;
+  const name = "saurabh";
+  const age = 22;
+
+  return (
+    <h1>
+      hi my name is {name} and my age is {age}
+    </h1>
+  );
+  // new
 }
 
 // 5) show the component on the screen
