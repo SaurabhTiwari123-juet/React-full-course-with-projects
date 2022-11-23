@@ -31,7 +31,7 @@ function App() {
       hi my name is {name} and my age is {age}
     </h1>
   );
-  // new ii
+  // new lst
 }
 
 // 5) show the component on the screen
