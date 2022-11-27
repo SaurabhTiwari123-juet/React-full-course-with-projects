@@ -1,17 +1,17 @@
-// import react from 'react';
-// import reactdom from 'react-dom/client';
-// import App from './App.js'
-
-
+import Alexa from './images/alexa.png';
+import cortana from './images/cortana.png';
+import siri from './images/siri.png';
 import ProfileCard from './ProfileCard';
 
 function App() {
   return (
     <div>
+    <img src={Alexa} />
+    <img src ={siri}/>
     <div>Personal Digital Assitants</div>
-    <ProfileCard/>
-    <ProfileCard/>
-    <ProfileCard/>
+    <ProfileCard title="Alexa" handle="@alexa99"/>
+    <ProfileCard title="cortana" handle="@cortana32"/>
+    <ProfileCard title="siri" handle="@siri01"/>
     </div>
   );
   }
