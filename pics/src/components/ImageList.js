@@ -6,3 +6,6 @@ function ImageList() {
 
 export default ImageList;
 //
+
+// here the export and of two types
+// default and normal export
