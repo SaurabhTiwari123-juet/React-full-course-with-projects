@@ -1,10 +1,11 @@
 /** @format */
 import SearchBar from "./components/SearchBar";
-
+import SearchImages from "./api";
 function App() {
-	const handleSubmit = (term) => {
-		console.log("do a serach ", term);
-		// SearchImages(term);
+	const handleSubmit = async (term) => {
+		// console.log("do a serach ", term);
+		const result = await SearchImages(term);
+		console.log(result);
 	};
 	return (
 		<div>
