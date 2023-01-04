@@ -21,3 +21,7 @@ function App() {
 }
 
 export default App;
+// here images are acting as state whereas
+//in imagelist component the images
+//are acting as props
+// it can be both or one as a same time
